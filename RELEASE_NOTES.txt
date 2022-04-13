@@ -1,0 +1,24 @@
+Release Notes for:
+org.openhab.binding.boschspexor - 3.2.1.1 
+
+Initial publication of binary
+--------------
+This bundle is released the first time without source code at the moment.
+It is provided as a beta addon for the Bosch spexor product for using this within your smart home system openHAB.
+
+The bundle does support only openHAB 3.1.x and 3.2.x Versions
+The bundle is licensed under EPL 2.0 - for more details check the appended file LICENSES
+
+The contained functionality is:
+
+- Authorization mechanism to permit the openHAB system to retrieve data from Bosch spexor API v1 via an OAuth 2.0 OAuth Device Code Flow.
+- Management UI to setup the Account binding to a specific customer account.
+- Discovery Service to create new "Things" in openHAB
+- Supported Fields:
+    - device information
+    - sensor data
+    - observation types
+    - profiles
+	
+
+
